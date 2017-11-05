@@ -1,0 +1,475 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+header {
+    position: fixed;
+}
+
+header .header-inner {
+    background-color: #fff0de;
+    width: 20%;
+    float: left;
+    height: 650px;
+}
+
+header .header-inner .container-logo a {
+    text-decoration: none;
+    color: black;
+}
+
+header .header-inner .container-logo .logo {
+    width: 50%;
+    height: 50%;
+    margin: 20% 0 0% 26%;
+}
+
+header .header-inner .container-logo p {
+    text-align: center;
+    padding: 1%;
+    font-size: 175%;
+    font-family: 'Architects Daughter';
+}
+
+header .header-inner nav {
+    margin: 20% 0 0 20%;
+}
+
+header .header-inner nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header .header-inner nav a:hover,
+header .header-inner nav a:active {
+    color: #fbceb7;
+}
+
+header .header-inner nav li {
+    list-style: none;
+    padding: 1%;
+    margin-bottom: 8%;
+    font-size: 85%;
+    letter-spacing: 3px;
+}
+
+header .header-inner nav ul li:hover {
+    transition: all 1s ease;
+}
+
+header .header-inner nav ul li:hover > ul {
+    display: inherit;
+}
+
+li:hover > ul.drop-down.menu-4 li {
+    opacity: 0;
+}
+li:hover > ul.drop-down.menu-4 li:nth-child(1) {
+    animation-name: menu-4;
+    animation-duration: 0.3s;
+    animation-delay: -150ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+li:hover > ul.drop-down.menu-4 li:nth-child(2) {
+    animation-name: menu-4;
+    animation-duration: 0.3s;
+    animation-delay: 0ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+li:hover > ul.drop-down.menu-4 li:nth-child(3) {
+    animation-name: menu-4;
+    animation-duration: 0.3s;
+    animation-delay: 150ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+li:hover > ul.drop-down.menu-4 li:nth-child(4) {
+    animation-name: menu-4;
+    animation-duration: 0.3s;
+    animation-delay: 300ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+li:hover > ul.drop-down.menu-4 li:nth-child(5) {
+    animation-name: menu-4;
+    animation-duration: 0.3s;
+    animation-delay: 450ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+li:hover > ul.drop-down.menu-4 li:nth-child(6) {
+    animation-name: menu-4;
+    animation-duration: 0.3s;
+    animation-delay: 600ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+li:hover > ul.drop-down.menu-4 li:nth-child(7) {
+    animation-name: menu-4;
+    animation-duration: 0.3s;
+    animation-delay: 750ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+li:hover > ul.drop-down.menu-4 li:nth-child(8) {
+    animation-name: menu-4;
+    animation-duration: 0.3s;
+    animation-delay: 900ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+li:hover > ul.drop-down.menu-4 li:nth-child(9) {
+    animation-name: menu-4;
+    animation-duration: 0.3s;
+    animation-delay: 1050ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes menu-4 {
+    0% {
+        opacity: 0;
+        transform: scale(0.2) translateY(-50px);
+    }
+    75% {
+        transform: scale(1.2) translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(0px);
+    }
+}
+
+header .header-inner nav ul ul {
+    display: none;
+    list-style: none;
+}
+
+header .header-inner nav ul ul li {
+    display: list-item;
+    position: relative;
+    margin: 8% 0 0% 8%;
+    letter-spacing: 3px;
+}
+
+button {
+    border: 0;
+    background: #4bc849;
+    color: #000000;
+    font: inherit;
+    font-size: .9em;
+    outline: none;
+    margin: 8% 0 0 20%;
+    padding: 12px 20px;
+    transition: all .1s linear;
+}
+
+button:active {
+    transform: translateY(1.5px);
+}
+
+/* web page body */
+.container-body-index {
+    margin: 0 0 0 20%;
+    height: 1250px;
+    display: block;
+    background-color: #fff0de;
+}
+
+.container-body-index .container-banner {
+    background-color: #fbceb7;
+    height: 50px;
+}
+
+.container-body-index .container-banner h4 {
+    text-align: center;
+    padding: 1.5% 0 0 0;
+    letter-spacing: 13px;
+    color: #000000;
+}
+
+.container-body-index img {
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+.container-body-index .container-main-image1 .main-image1 {
+    height: 600px;
+    width: 1020px;
+    position: relative;
+    -webkit-animation-name: slide-in;
+    -webkit-animation-duration: 6s;
+}
+
+.container-body-index .container-main-image1 .main-image1:hover {
+    opacity: 0.6;
+}
+
+@keyframes slide-in {
+    0% { left: 200px; }
+    25% { left: 0; }
+}
+
+.container-body-index .container-main-image2 .main-image2 {
+    position: absolute;
+    height: 625px;
+    width: 1020px;
+}
+
+.container-body-index .container-main-image2 .main-image2:hover {
+    opacity: 0;
+}
+
+.container-body-index .container-main-image2 .bottom {
+    height: 625px;
+    width: 1020px;
+}
+
+.container-body-index .container-main-image3 .main-image3 {
+    width: 1020px;
+    height: auto;
+}
+
+.container-body-index .container-main-image4 .main-image4 {
+    position: absolute;
+    width: 1020px;
+    height: 625px;
+}
+
+.container-body-index .container-main-image4 .main-image4:hover {
+    opacity: 0;
+}
+
+.container-body-index .container-main-image4 .bottom {
+    height: 625px;
+    width: 1020px;
+}
+
+.container-body-index .container-main-image5 .main-image5 {
+    width: 1020px;
+    height: auto;
+}
+
+/* breakout pages - pages with cards */
+.container-body {
+    margin: 0 0 0 20%;
+    height: 1250px;
+    display: block;
+    background-color: #fdfdfd;
+
+}
+
+.container-body .container-banner {
+    background-color: #fbceb7;
+    height: 50px;
+}
+
+.container-body .container-banner h4 {
+    text-align: center;
+    padding: 1.5% 0 0 0;
+    letter-spacing: 13px;
+    color: #000000;
+}
+
+.container-body .container-display-title {
+    height: 77px;
+    background-color: #f4f4f4;
+}
+
+.container-body .container-display-title h4 {
+    margin: 2% 0 0% 6%;
+    padding-top: 1%;
+    font-size: 175%;
+}
+
+.container-body .container-display-title h4 span {
+    display: block;
+    padding-top: .5%;
+    font-size: 55%;
+    font-weight: lighter;
+}
+
+.container-body .container-card .card {
+    display: inline-block;
+    width: 45%;
+    margin: 1%;
+    padding: 1%;
+    background-color: #f4f4f4;
+}
+.container-body .container-card .card .container-card-image img {
+    width: 100%;
+    border-color: #b5b5b5;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+.container-body .container-card .card .container-card-image h2 {
+    margin-top: -18%;
+    padding-left: 5%;
+}
+
+.container-body .container-card .card .container-card-info {
+    padding-left: 3%;
+    margin-top: 6%;
+}
+
+.container-body .container-card .card .container-card-image .card-title {
+    letter-spacing: 6px;
+    color: #ffffff;
+    font-size: 175%;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.container-body .container-card .card .container-card-image .card-title span {
+    display: block;
+    padding-top: 1%;
+    font-size: 55%;
+    font-weight: lighter;
+    text-shadow: 8px 8px 40px #000000;
+    text-shadow: -2px 0px 1px rgb(32, 32, 32);
+}
+
+.container-body .container-card .card .container-card-info  ul i {
+    color: #353535;
+    margin: 3% 2% 0 2%;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    text-shadow: 1px 1px 1px #e7e7e7;
+    font-size: 1.2em;
+}
+
+.container-body .container-card .card .container-card-info  ul .fa-usd {
+    float: right;
+    padding-right: 1%;
+}
+
+.container-body .container-card .card .container-card-info  ul span{
+    font-size: 120%;
+}
+
+.container-card .card a {
+    position: relative;
+    text-decoration: none;
+}
+
+#crossfade > img {
+    width: 35%;
+    position: absolute;
+    color: transparent;  opacity: 0;  z-index: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-animation: imageAnimation 30s linear infinite 0s;
+    animation: imageAnimation 30s linear infinite 0s;
+}
+
+#crossfade > img:nth-child(2)  {
+    background-image: url(images/cover2.png);  -webkit-animation-delay: 6s;  animation-delay: 6s;
+}
+#crossfade > img:nth-child(3) {
+    background-image: url(images/cover3.png);  -webkit-animation-delay: 12s;  animation-delay: 12s;
+}
+#crossfade > img:nth-child(4) {
+    background-image: url(images/cover4.png);  -webkit-animation-delay: 18s;  animation-delay: 18s;
+}
+
+#crossfade > img:nth-child(5) {
+    background-image: url(images/cover5.png);  -webkit-animation-delay: 24s;  animation-delay: 24s;
+}
+
+@-webkit-keyframes imageAnimation {
+    0% { opacity: 0;  -webkit-animation-timing-function: ease-in; }
+    8% { opacity: 1;  -webkit-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@keyframes imageAnimation {
+    0% { opacity: 0;  animation-timing-function: ease-in; }
+    8% { opacity: 1;  animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+.container-body .container-cityDisplay {
+    margin: 2% 0 0 2%;
+}
+
+.container-body .container-cityDisplay .cityDisplay {
+    display: inline-block;
+    width: 28%;
+    height: 200px;
+    padding: 1%;
+    margin: 1%;
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+.container-body .container-cityDisplay .cityDisplay img {
+    width: 100%;
+    height: 100%;
+    opacity: .2;
+}
+
+.container-body .container-cityDisplay .cityDisplay:hover img {
+    opacity: 1;
+}
+
+.container-body .container-cityDisplay .cityDisplay h2 {
+    position: absolute; /* Using Position to position the text absolute*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    text-align: center;
+    font-size: 1em;
+    letter-spacing: 6px;
+    text-shadow: 2px 2px 4px #bdbdbd;
+}
+
+.container-body .container-cityDisplay .cityDisplay:hover h2 {
+    color: transparent;
+    text-shadow: none;
+}
+
+.container-body .container-cityDisplay .cityDisplay span {
+    display: block;
+    font-size: 1.3em;
+    letter-spacing: 14px;
+    margin: 10% 0 0 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

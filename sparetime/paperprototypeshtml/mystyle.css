@@ -1,0 +1,91 @@
+* {
+    margin: 0;  padding: 0;  box-sizing: border-box;  font-family: Verdana;  font-size: 16px;
+}
+
+header h1 {
+    background: url("http://www.orangetreeantiques.com/assets/gie57eBzT.png");
+    background-size: cover;
+    text-align: center;
+    line-height: 650px;
+    height: 650px;
+    color: white;
+    font-weight: 100;
+    font-size: 65px;
+}
+
+.pagewrap {
+    height: 100%;
+    min-height: 100%;
+}
+
+p {
+    line-height: 45px;
+    text-align: center;
+    padding-left: 23%;
+    padding-right: 23%;
+}
+
+.special {
+    text-align: left;
+    font-size: 28px;
+    padding-left: 23%;
+    padding-right: 23%;
+}
+
+.specialTwo {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 13px;
+    padding-left: 28%;
+    padding-right: 28%;
+    color: black;
+    line-height: 30px;
+}
+
+.specialInLine {
+    text-align: left;
+    font-size: 28px;
+    padding-left: 23%;
+}
+
+img {
+    width: 45%;
+    height: 45%;
+    display: inline-block;
+    image-orientation: 180deg;
+}
+
+.container {
+    text-align: center;
+    background-color: #f1ead9;
+}
+
+.large {
+    width: 20%;
+    height: 20%;
+}
+
+.buffer {
+    height: 50px;
+}
+
+.smallBuffer {
+    height: 7px;
+}
+
+.image img {
+    width: 45%;
+    vertical-align: top;
+    transition: all ease-in-out 0.5s;
+    -webkit-transition: all ease-in-out 0.5s;
+}
+.image:hover img, .image:hover:after {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.image:hover:after {
+    opacity: 0;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en" ng-app="myContent">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ShopME</title>
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Barrio' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/png" href="images/icon.png"/>
+</head>
+
+<body ng-controller="ContentController">
+
+<header>
+    <div class="top">
+        <img src="images/banner1.png">
+    </div>
+    <!-- header-inner 1 -->
+    <div class="header-inner">
+        <nav>
+            <ul class="beforecenter">
+                <li><a href="index.html"><h1>ShopME</h1></a></li>
+                <li class="icon1 icon"><a href="index.html"><span></span><i class="fa fa-shopping-bag"></i></a> MY BAG</li>
+                <li class="icon"><a href="index.html"><span></span><i class="fa fa-heart"></i></a> MY FAVORITES</li>
+            </ul>
+        </nav>
+    </div>
+    <!-- header-inner 2 -->
+    <div class="header-inner2">
+        <nav>
+            <ul class="center">
+                <li><a ng-click="getData('SWIMWEAR')">SWIMWEAR</a></li>
+                <li><a ng-click="getData('MATCHING SETS')">MATCHING SETS</a></li>
+                <li><a ng-click="getData('TOPS')">TOPS</a></li>
+                <li><a ng-click="getData('BOTTOMS')">BOTTOMS</a></li>
+                <li><a ng-click="getData('SHOES')">SHOES</a></li>
+                <li><a ng-click="getData('ACCESSORIES')">ACCESSORIES</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div class="banner" ng-hide="hideBanner">
+    <img src="images/banner2.png" alt="#">
+</div>
+
+<div id="slider" ng-hide="hideCrossfade">
+    <figure>
+        <img src="images/cover1.png" alt>
+        <img src="images/cover2.png" alt>
+        <img src="images/cover3.png" alt>
+        <img src="images/cover4.png" alt>
+        <img src="images/cover5.png" alt>
+    </figure>
+</div>
+
+<div class="container-breadcrumbs" ng-show="showBreadcrumbs">
+    <p> HOME / {{breadcrumbs}} </p>
+</div>
+
+<div class="container-breadcrumbs" ng-show="showBreadcrumbs2">
+    <p> HOME / {{breadcrumbs}} / {{name2}} </p>
+</div>
+
+<!-- Container for grid layout -->
+<div class="container" ng-show="showContainer">
+    <div class="row">
+        <div class="col" ng-repeat="x in filtered | limitTo:4">
+            <img class="img-responsive1" ng-src="{{x.source}}" ng-click="showData(x.source,x.website,x.name,x.price,x.size,x.link, x.websiteLink)" alt="#">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col" ng-repeat="x in filtered | limitTo:8 | limitTo:-4">
+            <img class="img-responsive1" ng-src="{{x.source}}" ng-click="showData(x.source,x.website,x.name,x.price,x.size,x.link, x.websiteLink)" alt="#">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col" ng-repeat="x in filtered | limitTo:-4">
+            <img class="img-responsive1" ng-src="{{x.source}}" ng-click="showData(x.source,x.website,x.name,x.price,x.size,x.link, x.websiteLink)" alt="#">
+        </div>
+    </div>
+</div>
+
+<div class="detailed" ng-show="showDetailed">
+    <a href="{{link}}" target="_blank"><img class="img-responsive1" ng-src="{{imgSrc}}" alt="#"></a>
+    <div class="container-detailed-info">
+        <p class="one">{{name}}</p>
+        <p class="two">${{price}} USD</p>
+        <p class="three">Size: {{size}}</p>
+        <p class="four"><a href="{{websiteLink}}" target="_blank">From: {{website}}</a></p>
+    </div>
+</div>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
+<script type="text/javascript" src="js/myscript.js"></script>
+
+</body>
+</html>
+
+<!-- <a ng-href="{{x.link}}" target="_blank"> -->

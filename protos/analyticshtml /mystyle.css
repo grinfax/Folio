@@ -1,0 +1,114 @@
+body {
+    background: #f1eaff;
+}
+div {
+    width: 18.75em;
+    margin: auto;
+}
+.iphone-outside {
+    width: 21.6em;
+    height: 44.6em;
+    background: #bbb;
+    border-radius: 1.0em;
+}
+.iphone {
+    width: 18.3em;
+    height: 29.9em;
+    border-top: 6.25em;
+    border-left: 1.25em;
+    border-right: 1.25em;
+    border-bottom: 6.375em;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 1.0em;
+    box-shadow: 0px 0px 5px 1px rgba(920, 920, 920, .75);
+    padding-top: 1.875em;
+    padding-left: 0.6em;
+    position: relative;
+    top: 0.35%;
+    left: -0.1%;
+}
+.camera {
+    width: 0.5em;
+    height: 0.5em;
+    background: #000;
+    border-radius: 3em;
+    border: 3px solid #444;
+    position: relative;
+    top: -23%;
+}
+.dot {
+    width: 0.5em;
+    height: 0.5em;
+    background: #000;
+    border-radius: 3em;
+    position: relative;
+    top: -17.3%;
+    left: -18%;
+}
+.earphone {
+    width: 4em;
+    height: 0.5em;
+    background: #000;
+    border-radius: 3em;
+    position: relative;
+    top: -19%;
+}
+.display {
+    width: 18.5em;
+    height: 31.35em;
+    background: #000000;
+    position: relative;
+    border: 0.2975em solid black;
+    border-radius: 0.3em;
+    opacity: 1;
+    left: -3.5%;
+    top: -12.6%;
+
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+.menu-btn {
+    width: 4em;
+    height: 4em;
+    background: #fff;
+    border: 1px solid #d0d0d0;
+    border-radius: 100%;
+    position: relative;
+    top: -9%;
+}
+.menu-btn-square {
+    width: 1.25em;
+    height: 1.25em;
+    border: 0.165em solid #d0d0d0;
+    border-radius: 20%;
+    position: relative;
+    top: 30%;
+}
+
+.part {
+    display: inline;
+}
+
+.top {
+    position: absolute;
+    top:33%;
+    padding-left: 14%;
+    font-size: 33px;
+    letter-spacing: 1.5px;
+}
+
+.bottom {
+    position: relative;
+    top: -295px;
+    left: 950px;
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+}
+
+.buffer {  height: 35px;  }

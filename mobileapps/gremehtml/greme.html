@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GREMe</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="mystyle.css"/>
+    <script type="text/javascript" src="myscript.js"></script>
+    <link rel="shortcut icon" type="image/png" href="icon1.png"/>
+</head>
+<body>
+
+<header>
+    <h1>GREMe Edition: Vocabulary</h1>
+    <h2>Use this easy and effective study tool as a game.
+        Play it once or spend hours to get the high score.
+        Don't let the GRE vocabulary trip you up,
+        download GREMe Edition: Vocabulary </h2>
+</header>
+
+<nav class="navbar">
+    <ul class="nav">
+        <li><a href="#1" class="active">Introduction</a></li>
+        <li><a href="#2">Inspiration</a></li>
+        <li><a href="#3">Round One</a></li>
+        <li><a href="#4">Round Two</a></li>
+        <li><a href="#5">Results</a></li>
+    </ul>
+</nav>
+
+
+<div class="pagewrap">
+    <section id="1">
+        <div class="buffer"></div>
+        <div class="buffer"></div>
+        <div class="buffer"></div>
+
+        <p class="special">Using GRE Prep books means answering practice questions with tons of tricky vocabulary.</p>
+
+        <div class="smallBuffer"></div>
+
+        <p>Since there was a correlation in this and the questions I was getting wrong I
+            decided to write them all down. A week in my list was getting large with
+            about 47 different terms. Make some flashcards you say? Tried that.</p>
+
+        <p>Sure, I could be one of those people who carry around those extra large flashcards but,
+            not only was it time consuming to keep up; If we are being honest I really never wanted
+            to pull out that hunky deck of flashcards. I wasn't studying them.</p>
+
+        <p>There had to be a better way. I needed an approach that would be more effective.
+            Then the idea came to me. Being in the age of technology, I decided to make a
+            mobile app to quiz myself over those vocabulary words.</p>
+
+        <div class="smallBuffer"></div>
+        <p class="special">Now I have a virtual copy of my vocabulary words that is accessible to me at anytime.</p>
+
+        <div class="buffer"></div>
+
+    </section>
+    <section id="2">
+        <div class="buffer"></div>
+        <div class="buffer"></div>
+
+        <div class="container">
+            <div class="buffer"></div>
+            <img src="group1.png">
+            <img src="group2.png">
+            <p class="specialTwo">Pictures from various iPhone applications that I used to draw inspiration from before I starting building my application</p>
+            <div class="buffer"></div>
+        </div>
+
+        <div class="buffer"></div>
+
+    </section>
+    <section id="3">
+        <div class="buffer"></div>
+        <div class="buffer"></div>
+
+        <p class="special">This application was programed in Xcode using Swift.</p>
+        <div class="smallBuffer"></div>
+
+        <p>Initially, I wanted to mimic the “flipping” behavior that flash cards have. I made front and
+            back images representing the vocabulary term and definition respectively.</p>
+
+        <div class="buffer"></div>
+        <div class="buffer"></div>
+
+        <video loop="true" controls autoplay><source src="mov1.mov" type="video/mp4"></video>
+        <p class="specialTwo">Video of the "flipping" behavior</p>
+
+        <div class="buffer"></div>
+        <div class="buffer"></div>
+
+        <p>With this approach sub decks are created holding cards that the user specifies they
+            know or they don't know. Once the user has flipped all of the cards in the deck
+            they are given the option to play again but using either the deck they said they
+            knew or using the deck they said they didn't know.</p>
+
+        <p>This method worked like a charm, however the experience was not ideal.
+            Creating two separate images for my vocabulary words was not better than writing
+            out my extra large flashcards, it was worse! Once an image was made it could not
+            be edit, even for spelling errors. Even more importantly than that, It was hard
+            to gauge if the user was comprehending or flipping through the images of the
+            cards. </p>
+
+        <div class="smallBuffer"></div>
+
+        <p class="special">With no way to check the user's understanding my application failed
+            the effectively test.</p>
+
+        <div class="buffer"></div>
+        <div class="buffer"></div>
+
+        <div class="container">
+            <div class="buffer"></div>
+            <img class="large" src="nBack.png">
+            <img class="large" src="nFront.png">
+            <p class="specialTwo">Images of a cards front side and back side</p>
+            <div class="buffer"></div>
+        </div>
+
+        <div class="buffer"></div>
+        <div class="buffer"></div>
+
+        <p class="special">I knew I could make my application better so I did.</p>
+
+        <div class="smallBuffer"></div>
+
+        <p> Version 2 of my application focused more on data structures. What data structure
+            would allow me to assess and manipulate my data in the best way?</p>
+
+        <p> I decided to use a dictionary with vocabulary term keys and term definition pairs.
+            Now I have the ability to edit and modify my vocabulary words. The taxing job of
+            adding terms to my list is now an easy job. With program modifications came user
+            interface modifications. </p>
+
+        <p>Keeping track of the user's score in real-time was
+            important to me. To do this I added a progress style bar at the bottom of the
+            application. In the progress bar the user can find the number of terms in the
+            list, and their count of correct and incorrect vocabulary term guesses.
+            A results page pops up at the end of the quiz displaying the user score as
+            a numeric value plus other information.</p>
+
+        <div class="buffer"></div>
+
+    </section>
+    <section id="4">
+        <div class="buffer"></div>
+
+        <div class="container">
+            <div class="buffer"></div>
+            <img class="large" src="nOne.png">
+            <img class="large" src="nTwo.png">
+            <img class="large" src="nThree.png">
+            <p class="specialTwo">Various images displaying the beginning, middle, and end of the updated GREMe</p>
+            <div class="buffer"></div>
+        </div>
+
+        <div class="buffer"></div>
+        <div class="buffer"></div>
+
+        <p class="special">Now I use GREMe Edition: Vocabulary every day, often times multiple times a day.
+            Eventually I plan to releasing it on the App Store.</p>
+
+        <div class="smallBuffer"></div>
+
+        <p>Until then I will use my daily interactions to testing my product.
+            Discovering what I like, and revising what I don't like. This way I
+            will hone in on making a cohesive, user friendly quiz application.</p>
+
+        <div class="buffer"></div>
+
+    </section>
+    <section id="5">
+        <div class="buffer"></div>
+        <div class="buffer"></div>
+
+        <video loop="true" controls autoplay><source src="mov2.mov" type="video/mp4"></video>
+        <p class="specialTwo">Animated GREMe mock-up using Flinto</p>
+
+        <div class="buffer"></div>
+        <div class="buffer"></div>
+
+        <p><span class="specialInLine">GREMe Edition: Vocabulary</span> has given me a better understanding when it comes to
+            answering comprehension questions with tricky vocab.</p>
+
+        <p>In the future, I plan on adding different vocabulary decks the user can play
+            with varying difficulty. This will give my application a bigger and more powerful feeling.</p>
+
+        <div class="buffer"></div>
+        <div class="buffer"></div>
+
+        <video loop="true" controls autoplay><source src="mov3.mov" type="video/mp4"></video>
+        <p class="specialTwo">Video simulation of GREMe running on device</p>
+
+        <div class="buffer"></div>
+        <div class="buffer"></div>
+
+    </section>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+    font-size: 16px;
+}
+
+header h1 {
+    background-color: #e6c78e;
+    text-align: center;
+    line-height: 400px;
+    height: 400px;
+    color: white;
+    font-weight: 100;
+    font-size: 60px;
+}
+
+header h2 {
+    background-color: #7a41f2;
+    text-align: center;
+    height: 245px;
+    padding-top: 5%;
+    padding-left: 30%;
+    padding-right: 30%;
+    color: white;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+/* ------------------------------------*/
+
+nav ul {
+    text-align: center;
+}
+
+.navbar .nav {
+    text-align: center;
+}
+
+.navbar {
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+}
+.navbar::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.navbar.stick {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    -webkit-transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+.nav {
+    display: block;
+}
+.nav li {
+    display: block;
+    float: left;
+    background: #5a42b4;
+    color: #F0F0F0;
+    border-right: 2px solid #eadcff;
+}
+.nav li:last-of-type {
+    border-right: none;
+}
+.nav li a {
+    color: #F0F0F0;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+}
+.nav li a:hover {
+    background: #7a41f2;
+}
+
+.stick .nav li {
+    width: 20%;
+}
+
+.active {
+    background: #9d63ff;
+}
+
+/* ------------------------------- */
+
+.pagewrap {
+    height: 100%;
+    min-height: 100%;
+}
+
+p {
+    line-height: 45px;
+    text-align: center;
+    padding-left: 23%;
+    padding-right: 23%;
+}
+
+.special {
+    text-align: left;
+    font-size: 24px;
+    padding-left: 23%;
+    padding-right: 23%;
+}
+
+.specialTwo {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 13px;
+    padding-left: 28%;
+    padding-right: 28%;
+    color: black;
+    line-height: 30px;
+}
+
+.specialInLine {
+    text-align: left;
+    font-size: 28px;
+    padding-left: 23%;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+    display: inline-block;
+}
+
+.specialImg {
+    width: 25%;
+    height: 25%;
+}
+
+video {
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin: auto;
+}
+
+header ul {
+    text-align: center;
+    height: 60px;
+    background-color: #0f3d98;
+    color: white;
+}
+
+header ul li {
+    display: inline-block;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.container {
+    text-align: center;
+    background-color: #ececec;
+}
+
+.large {
+    width: 20%;
+    height: 20%;
+}
+
+.buffer {
+    height: 50px;
+}
+
+.smallBuffer {
+    height: 7px;
+}

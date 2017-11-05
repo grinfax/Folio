@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en" ng-app="myContent">
+<head>
+    <meta charset="UTF-8">
+    <title>VACATION RESORTS</title>
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Architects Daughter' rel='stylesheet'>
+    <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
+    <link rel="shortcut icon" type="image/png" href="images/logo.png"/>
+</head>
+
+
+<body ng-controller="ContentController">
+<!-- header inside body -->
+<header>
+    <!-- header-inner container-->
+    <div class="header-inner">
+        <!-- logo container-->
+        <div class="container-logo">
+            <!-- logo + link-->
+            <a href="index.html"><img class="logo" src="images/logo.png" alt="#"><p>VACATION</p><p>RESORTS</p></a>
+        </div>
+        <!-- nav bar-->
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li>VILLAS
+                        <!-- drop down-->
+                        <ul class="drop-down menu-4">
+                            <li><a ng-click="getData('TURKS AND CAICOS')">TURKS AND CAICOS</a></li>
+                            <li><a ng-click="getData('VIRGIN ISLANDS')">VIRGIN ISLANDS</a></li>
+                            <li><a ng-click="getData('INDONESIA')">INDONESIA</a></li>
+                            <li><a ng-click="getData('BARBADOS')">BARBADOS</a></li>
+                            <li><a ng-click="getData('THAILAND')">THAILAND</a></li>
+                            <li><a ng-click="getData('MEXICO')">MEXICO</a></li>
+                            <li><a ng-click="getData('SPAIN')">SPAIN</a></li>
+                            <li><a ng-click="getData('MAUI')">MAUI</a></li>
+                        </ul>
+                    </li>
+                </a>
+                <a href="http://twelvehotels.com/" target="_blank"><li>OUR STORY</li></a>
+                <a ng-click="getCitys()"><li>DESTINATIONS</li></a>
+            </ul>
+        </nav>
+        <!-- log in button-->
+        <button>JOIN FOR FREE</button>
+    </div>
+</header>
+
+<!-- body container-->
+<div class="container-body container-body-index">
+    <!-- banner container-->
+    <div class="container-banner">
+        <!-- banner-->
+        <h4>SAVE 30% ON YOUR ORDER! USE CODE: VILLA </h4>
+    </div>
+
+    <!-- main image container1-->
+    <div class="container-main-image1" ng-hide="hideImageOne">
+        <!-- main image-->
+        <img class="main-image1" src="images/main1.jpg" alt="#">
+    </div>
+
+    <!-- main image container2-->
+    <div class="container-main-image2" ng-hide="hideImageTwo">
+        <!-- main image-->
+        <img class="main-image2" src="images/main2.jpg" alt="#">
+        <img class="bottom" src="images/main3.jpg" alt="#">
+    </div>
+
+    <div class="container-main-image3" ng-hide="hideImageThree">
+        <!-- main image-->
+        <img class="main-image3" src="images/main4.jpg" alt="#">
+    </div>
+
+    <div class="container-main-image4" ng-hide="hideImageFour">
+        <!-- main image-->
+        <img class="main-image4" src="images/main5.jpg" alt="#">
+        <img class="bottom" src="images/main6.jpg" alt="#">
+    </div>
+
+    <div class="container-main-image5" ng-hide="hideImageFive">
+        <!-- main image-->
+        <img class="main-image5" src="images/main7.jpg" alt="#">
+    </div>
+
+    <div class="container-display-title"  ng-show="showTitle">
+        <!-- display-title-->
+        <h4> {{countryVar}} Villas & Vacation Rentals <span>Displaying {{count}} hand picked villas in {{countryVar}}</span> </h4>
+    </div>
+
+    <div class="container-card" ng-show="showCard">
+        <div class="card" ng-repeat="x in filtered">
+            <a ng-href="{{x.link}}" target="_blank">
+                <div class="container-card-image">
+                    <img ng-src="{{x.source}}">
+                    <h2 class="card-title">{{x.name}}<span>{{x.city}}, {{countryVar}}</span></h2>
+                </div>
+            </a>
+            <div class="container-card-info">
+                <ul>
+                    <i class="fa fa-users" aria-hidden="true"> {{x.people}}</i>
+                    <i class="fa fa-bed" aria-hidden="true"> {{x.bed}}</i>
+                    <i class="fa fa-bath" aria-hidden="true"> {{x.bath}}</i>
+                    <i class="fa fa-usd" aria-hidden="true"><span> {{x.price}}</span></i>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-cityDisplay" ng-hide="hideCard2">
+        <div class="cityDisplay" ng-repeat="city in cities | unique: 'city' | orderBy: 'city'">
+            <a ng-click="getData(city.country)">
+                <img ng-src="{{city.source}}"><h2>{{city.city}}<span>{{city.country}}</span></h2>
+            </a>
+        </div>
+    </div>
+
+</div>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.8/angular-filter.min.js"></script>
+<script type="text/javascript" src="js/myscript.js"></script>
+
+</body>
+
+</html>

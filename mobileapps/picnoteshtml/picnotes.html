@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PicNotes</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="mystyle.css"/>
+    <script type="text/javascript" src="myscript.js"></script>
+    <link rel="shortcut icon" type="image/png" href="icon2.png"/>
+</head>
+<body>
+
+<header>
+    <h1>PicNotes</h1>
+    <h2>Add a task, view a picture. Visually see your notes with PicNotes</h2>
+</header>
+
+<nav class="navbar">
+    <ul class="nav">
+        <li><a href="#1" class="active">Background</a></li>
+        <li><a href="#2">Inspiration</a></li>
+        <li><a href="#3">Phase One</a></li>
+        <li><a href="#4">Phase Two</a></li>
+        <li><a href="#5">Results</a></li>
+    </ul>
+</nav>
+
+<div class="pagewrap">
+    <section id="1">
+        <div class="buffer"></div>
+        <div class="buffer"></div>
+
+        <p class="special">As a first time apartment owner I started using my kitchen a lot more than I
+            had previously at my parent’s house.</p>
+        <div class="smallBuffer"></div>
+
+        <p>Using my kitchen more meant I was teaching myself to cook in a largely trial
+            and error manner. Learning how to cook showed me that there were numerous ingredients needed per
+            recipe I wanted to make.</p>
+
+        <p>Wouldn't it be convenient to have some type of a mobile repository with all the ingredients
+            that you have ever used? That way you wouldn't leave out ingredients when shopping for recipes
+            and you could reference it when meal planning.</p>
+
+        <div class="buffer"></div>
+
+    </section>
+    <section id="2">
+        <div class="buffer"></div>
+
+        <p class="special">This was the idea behind my application.</p>
+        <div class="smallBuffer"></div>
+
+        <p>I began by looking at cookbooks and recipe apps for inspiration. A common theme across these
+            sources were the vivid use of pictures. Being a visual person pictures stand out to me.
+            I decided to take this idea and run with it.
+        </p>
+
+        <div class="smallBuffer"></div>
+        <p class="special">What would it look like if an ingredient application merged with a picture book?</p>
+        <div class="smallBuffer"></div>
+
+        <div class="buffer"></div>
+        <div class="buffer"></div>
+
+        <div class="container">
+            <div class="buffer"></div>
+            <img class="specialImg" src="a.png">
+            <img class="specialImg" src="b.png">
+            <p class="specialTwo">Images that I drew my inspiration from when building my application</p>
+            <div class="buffer"></div>
+        </div>
+
+        <div class="buffer"></div>
+        <div class="buffer"></div>
+
+    </section>
+    <section id="3">
+
+        <p>In my application I implemented a UITableView using the language Swift.
+            A UITableView is a collection of a rows, also known as UITableViewCells,
+            manipulated by a TableView controller.</p>
+
+        <p>I comprised each cell with an image icon and a text label. </p>
+
+        <p>Aside from the UITableView implementation, adding and hooking up the edit and add new
+            buttons, and registering an active text Field that syncs with the add new button; the
+            major algorithm behind my application was matching the user’s input to the appropriate
+            icon in the database. </p>
+
+        <p>My image icons are .PNG files that I imported into my application’s database.
+            A default icon is included in the database as well, in case no icon is found.</p>
+
+        <div class="buffer"></div>
+        <div class="buffer"></div>
+
+        <div class="container">
+            <div class="buffer"></div>
+            <img src="1.png">
+            <img src="2.png">
+            <img src="3.png">
+            <p class="specialTwo">Beginning stages of my application. These mock up were done in Sketch</p>
+            <div class="buffer"></div>
+        </div>
+
+        <div class="buffer"></div>
+        <div class="buffer"></div>
+
+        <p>On the first go around, my function was full of various if-statements checking
+            each individual condition that could be encountered. 50 plus lines later my
+            function worked, but was running inefficiently. Taking a step back to rethink my
+            logic, on my second go around I was able to cut my 50 plus line function into a
+            20 line function that ran in a more efficient and straightforward manner.</p>
+
+        <div class="smallBuffer"></div>
+        <p class="special">My app was now complete. Success!</p>
+        <div class="smallBuffer"></div>
+
+        <p>However, after a week of having my app on my mobile device I found that I was using
+            the standard notes app to make my grocery lists instead of using the app I spent
+            weeks making.</p>
+
+        <div class="smallBuffer"></div>
+        <p class="special">Something needed to change. </p>
+        <div class="smallBuffer"></div>
+
+        <p>My app needed an edge or a differentiating quality over the standard notes app.</p>
+
+        <p>I spend days racking my brain for ideas, then it dawned on me.
+            The code in my application was sound, but the idea behind why my
+            application was needed had to be reworked. </p>
+
+        <div class="buffer"></div>
+        <div class="buffer"></div>
+
+        <video loop="true" controls autoplay><source src="mov1.mov" type="video/mp4"></video>
+        <p class="specialTwo">Application animation of Sketch mock ups using Flinto</p>
+
+        <div class="buffer"></div>
+        <div class="buffer"></div>
+
+        <p>I realized that allowing users to add recipe ingredients/grocery items was extremely limiting.
+            Why not have my application mimic the notes application in the sense of allowing the user
+            to add any content imaginable, and support the added functionality of pictures.</p>
+
+        <div class="buffer"></div>
+
+        <video loop="true" controls autoplay><source src="mov2.mov" type="video/mp4"></video>
+        <p class="specialTwo">Phase one of my application running in Xcode on an iPhone simulator</p>
+
+        <div class="buffer"></div>
+        <div class="buffer"></div>
+
+    </section>
+    <section id="4">
+
+        <p class="special">When using my application not only can you add grocery store items,
+            but you can also add tasks that need to be completed.</p>
+        <div class="smallBuffer"></div>
+
+        <p>Now for the fun part, supporting the added functionality of pictures.</p>
+
+        <p>Having the ability to add icons to my applications database gives my application a
+            personalized feeling. For example, “exercise for 1 hour” was a recurring task in my application.
+            Because of this I found an exercise icon and added it to my applications database.
+            During one week where I had an extensive group project, I added a study group icon that
+            appeared every time I added “study group” to my task list.
+        </p>
+
+        <div class="buffer"></div>
+        <div class="buffer"></div>
+
+        <video loop="true" controls autoplay><source src="mov3.mov" type="video/mp4"></video>
+        <p class="specialTwo">Phase two of my application running in Xcode on an iPhone simulator</p>
+
+        <div class="buffer"></div>
+        <div class="buffer"></div>
+
+        <div class="buffer"></div>
+
+    </section>
+    <section id="5">
+        <div class="buffer"></div>
+
+        <video loop="true" controls autoplay><source src="mov4.mov" type="video/mp4"></video>
+        <p class="specialTwo">Phase two of my application showing off its full capabilities.</p>
+
+        <div class="buffer"></div>
+
+        <p class="special">Rethinking the way my app was used increased its value significantly.</p>
+
+        <p>Now I vist my app on a daily basis to view and update my everyday tasks.</p>
+
+        <p>In the future I plan to add a camera view capability. This way if the default icon
+            appears next to a task a user can tap on the icon to open up their iPhones camera
+            and replace the icon with their own pictures.</p>
+
+        <p>Another feature to add are push notifications. Because my application holds tasks
+            that users need to complete in timely manners getting notifications to view those
+            tasks would increase user productivity. </p>
+
+        <div class="buffer"></div>
+        <div class="buffer"></div>
+        <!-- <p class="new">Hello 5</p> -->
+
+    </section>
+</div>
+
+</body>
+</html>
