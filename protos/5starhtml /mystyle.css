@@ -104,11 +104,16 @@ video {
 
 .bottom {
     position: relative;
-    top: -295px;
-    left: 950px;
+    top: -455px;
+    left: 915px;
     font-size: 23px;
     line-height: 30px;
     letter-spacing: 1.5px;
+    background-color: #e8e8e8;
 }
 
 .buffer {  height: 35px;  }
+
+.center {
+    text-align: center;
+}
