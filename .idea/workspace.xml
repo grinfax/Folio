@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7ba2d38-340b-4e73-b59f-72835865a4df" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aboutme/aboutmehtml/.idea/workspace.xml" afterPath="$PROJECT_DIR$/aboutme/aboutmehtml/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aboutme/aboutmehtml/index.html" afterPath="$PROJECT_DIR$/aboutme/aboutmehtml/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aboutme/aboutmehtml/mystyle.css" afterPath="$PROJECT_DIR$/aboutme/aboutmehtml/mystyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobileapps/gremehtml/greme.html" afterPath="$PROJECT_DIR$/mobileapps/gremehtml/greme.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobileapps/picnoteshtml/picnotes.html" afterPath="$PROJECT_DIR$/mobileapps/picnoteshtml/picnotes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mystyle.css" afterPath="$PROJECT_DIR$/mystyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protos/5starhtml /index.html" afterPath="$PROJECT_DIR$/protos/5starhtml /index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protos/5starhtml /mystyle.css" afterPath="$PROJECT_DIR$/protos/5starhtml /mystyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protos/analyticshtml /index.html" afterPath="$PROJECT_DIR$/protos/analyticshtml /index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protos/analyticshtml /mystyle.css" afterPath="$PROJECT_DIR$/protos/analyticshtml /mystyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protos/musicstylehtml/index.html" afterPath="$PROJECT_DIR$/protos/musicstylehtml/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protos/musicstylehtml/mystyle.css" afterPath="$PROJECT_DIR$/protos/musicstylehtml/mystyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protos/purchasehtml  /index.html" afterPath="$PROJECT_DIR$/protos/purchasehtml  /index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protos/purchasehtml  /mystyle.css" afterPath="$PROJECT_DIR$/protos/purchasehtml  /mystyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protos/sarahahhtml /index.html" afterPath="$PROJECT_DIR$/protos/sarahahhtml /index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protos/sarahahhtml /mystyle.css" afterPath="$PROJECT_DIR$/protos/sarahahhtml /mystyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protos/workouthtml /index.html" afterPath="$PROJECT_DIR$/protos/workouthtml /index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protos/workouthtml /mystyle.css" afterPath="$PROJECT_DIR$/protos/workouthtml /mystyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sparetime/paperprototypeshtml/index.html" afterPath="$PROJECT_DIR$/sparetime/paperprototypeshtml/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sparetime/youtubechannelstatement/index.html" afterPath="$PROJECT_DIR$/sparetime/youtubechannelstatement/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapps/shopmepurposestatement/index.html" afterPath="$PROJECT_DIR$/webapps/shopmepurposestatement/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapps/vacationresorts/.idea/workspace.xml" afterPath="$PROJECT_DIR$/webapps/vacationresorts/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapps/vacationresorts/index.html" afterPath="$PROJECT_DIR$/webapps/vacationresorts/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobileapps/picnoteshtml/mystyle.css" afterPath="$PROJECT_DIR$/mobileapps/picnoteshtml/mystyle.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,11 +26,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webapps/vacationresorts/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="454">
               <caret line="127" column="7" lean-forward="true" selection-start-line="127" selection-start-column="7" selection-end-line="127" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mystyle.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mobileapps/picnoteshtml/mystyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="60" column="19" lean-forward="false" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -135,6 +121,7 @@
         <option value="$PROJECT_DIR$/protos/workouthtml /mystyle.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/mystyle.css" />
+        <option value="$PROJECT_DIR$/mobileapps/picnoteshtml/mystyle.css" />
       </list>
     </option>
   </component>
@@ -144,7 +131,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="68" />
     <option name="y" value="57" />
     <option name="width" value="1280" />
@@ -194,13 +181,8 @@
             <path>
               <item name="homepage" type="b2602c69:ProjectViewProjectNode" />
               <item name="homepage" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="homepage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homepage" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-              <item name="vacationresorts" type="462c0819:PsiDirectoryNode" />
+              <item name="mobileapps" type="462c0819:PsiDirectoryNode" />
+              <item name="picnoteshtml" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -248,15 +230,15 @@
       <workItem from="1509925723395" duration="364000" />
       <workItem from="1510501903306" duration="4224000" />
       <workItem from="1510541753365" duration="2142000" />
-      <workItem from="1510621562132" duration="221000" />
+      <workItem from="1510621562132" duration="407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19257000" />
+    <option name="totallyTimeSpent" value="19443000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="68" y="57" width="1280" height="712" extended-state="1" />
+    <frame x="68" y="57" width="1280" height="712" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16521049" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -590,6 +572,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="454">
           <caret line="127" column="7" lean-forward="true" selection-start-line="127" selection-start-column="7" selection-end-line="127" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileapps/picnoteshtml/mystyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="60" column="19" lean-forward="false" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
           <folding />
         </state>
       </provider>

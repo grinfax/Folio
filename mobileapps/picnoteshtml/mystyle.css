@@ -42,6 +42,7 @@ nav ul {
     width: 100%;
     margin: 0 auto;
     position: fixed;
+    display: none;
 }
 .navbar::after {
     clear: both;
@@ -57,6 +58,7 @@ nav ul {
     width: 100%;
     -webkit-transition: width .3s ease-in-out;
     transition: width .3s ease-in-out;
+    display: block;
 }
 
 .nav {
